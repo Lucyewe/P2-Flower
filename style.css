@@ -25,13 +25,12 @@ nav a:hover {
     color: #e7c597;
 }
 
-/*menu principal, se comporte en grille à 6 colones*/
+/*menu principal, se comporte en grille Ã  6 colones*/
 .menu1 {
     color: #0084a7;
     font-family: 'Libre Franklin', sans-serif;  
     font-weight: 900;
     font-size: 0.75em;
-
     
 }
 
@@ -42,7 +41,7 @@ nav a:hover {
     font-family: 'Libre Franklin', sans-serif;  
     font-weight: 900;
     margin-left: 10px;
-    float: left;
+    float: right;
     
 }
 
