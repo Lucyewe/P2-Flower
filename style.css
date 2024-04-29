@@ -48,7 +48,6 @@ nav a:hover {
     font-weight: 900;
     margin-left: 10px;
     float: right;
-
 }
 
 /*style de l'entete*/
@@ -88,15 +87,17 @@ nav a:hover {
 .boutonCA {
     width: 220px;
     height: 70px;
-    background-image: url("");
-    background-repeat: no-repeat;
-    background-size: contain;
+    /* background-image: url("images/CA-up.png"); */
+    /* background-repeat: no-repeat;
+    background-size: contain; */
     text-align: center;
-    padding-top: 5px;
+    /* padding-top: 5px; */
+    background-color: #04AA6D;
 }
 
 .boutonCA:hover {
-    background-image: url("images/CA-down.png");
+    background-color: #449276;
+    /* background-image: url("images/CA-down.png"); */
 }
 
 .menuprinc {
@@ -104,8 +105,8 @@ nav a:hover {
     width: 95%;
     margin-left: auto;
     margin-right: auto;
-    display: grid;
-    grid-template-columns: repeat(11, 1fr);
+    /* display: grid;
+    grid-template-columns: repeat(11, 1fr); */
     align-items: center;
     justify-items: center;
     color: rgb(0, 0, 0);
