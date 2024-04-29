@@ -1,8 +1,9 @@
 /*police par défault du document*/
 body {
-    font-family: 'Libre Franklin', sans-serif;
-    ;
-    font-weight: 900;
+    font-family: "karla", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    color: #6E815E;
     background-color: #faf8ec;
 }
 
@@ -23,7 +24,7 @@ nav a {
 /*couleur ausurvol du menu de la navigation principale*/
 nav a:hover {
     text-decoration: none;
-    color: #93B1C6;
+    color: #DCA9C0;
 }
 
 .actif {
@@ -33,9 +34,8 @@ nav a:hover {
 /*menu principal, se comporte en grille Ã  6 colones*/
 .menu1 {
     color: #6E815E;
-    font-family: 'Libre Franklin', sans-serif;
-    font-weight: 900;
-    font-size: 0.75em;
+    font-weight: 800;
+    font-size: 0.85em;
     margin-bottom: 3em;
 
 }
@@ -44,9 +44,7 @@ nav a:hover {
     color: #6E815E;
     margin-top: 5px;
     display: inline-block;
-    font-family: 'Libre Franklin', sans-serif;
-    font-weight: 900;
-    margin-left: 10px;
+    margin-left: 20px;
     float: right;
 }
 
@@ -56,7 +54,7 @@ nav a:hover {
     max-width: 900px;
     background-color: rgb(255, 255, 255);
     text-align: center;
-    border: 1px solid #000;
+    border: 1px solid #6E815E;
     border-radius: 50px;
     list-style-type: none;
     padding: 0;
@@ -70,7 +68,7 @@ nav a:hover {
 
 .contenuhero {
     width: 550px;
-    color: rgb(0, 0, 0);
+    color: #6E815E;
     padding: 50px;
 }
 
@@ -78,12 +76,12 @@ nav a:hover {
     margin-top: 0;
     margin-bottom: 50px;
     line-height: 1.5em;
-    font-size: 2em;
+    font-size: 1.5em;
 }
 
 .contenuhero h3 {
     margin-bottom: 5px;
-    font-size: 1.5em;
+    font-size: 1em;
 }
 
 .boutonCA {
@@ -131,6 +129,7 @@ nav a:hover {
     justify-items: center;
     color: #6E815E;
     font-size: 1.3em;
+    font-weight: 500;
 }
 
 .im_accueil {
@@ -139,11 +138,11 @@ nav a:hover {
 }
 
 .menuprinc a {
-    color: rgb(0, 0, 0);
+    color: #6E815E;
 }
 
 .menuprinc a:hover {
-    color: rgb(28, 160, 39);
+    color: #DCA9C0;
 }
 
 
@@ -157,7 +156,19 @@ header img {
 .texte1 h1 {
     margin-top: 100px;
     text-align: center;
-    font-size: 4em;
+    font-family: "DM Serif Display", serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 2.5em;
+}
+
+.texte1 h2 {
+    margin-top: 50px;
+    text-align: center;
+    font-family: "DM Serif Display", serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 1.75em;
 }
 
 .texte1 {
@@ -173,8 +184,9 @@ header img {
 }
 
 
+
 .pied {
-    border-top: 1px solid rgb(36,28,160);
+    border-top: 1px solid #6E815E;
     display: grid;
     /* background-color: #3783A3; */
     grid-template-columns: 5fr 2fr 3fr;
@@ -188,7 +200,7 @@ header img {
     grid-column-start: 1;
     grid-column-end: 2;
     font-size: 0.6em;
-    color: rgb(36,28,160);
+    color: #6E815E;
 }
 
 .pied2 {
@@ -196,7 +208,7 @@ header img {
     grid-column-start: 3;
     grid-column-end: 4;
     font-size: 0.6em;
-    color: rgb(36,28,160);
+    color: #6E815E;
 }
 
 .pied3 {
@@ -205,7 +217,7 @@ header img {
     font-family: 'Libre Franklin', sans-serif;
     font-weight: 100;
     font-size: 0.6em;
-    color: rgb(36,28,160);
+    color: #6E815E;
 }
 
 .pied4 {
@@ -214,7 +226,7 @@ header img {
     font-family: 'Libre Franklin', sans-serif;
     font-weight: 100;
     font-size: 0.6em;
-    color: rgb(36,28,160);
+    color: #6E815E;
 }
 
 .pied5 {
@@ -223,7 +235,7 @@ header img {
     font-family: 'Libre Franklin', sans-serif;
     font-weight: 100;
     font-size: 0.6em;
-    color: rgb(36,28,160);
+    color: #6E815E;
 }
 
 .menupied {
@@ -234,16 +246,16 @@ header img {
     grid-template-columns: repeat(9, 1fr);
     align-items: center;
     justify-items: center;
-    color: rgb(36,28,160);
+    color: #6E815E;
 }
 
 .menupied a {
-    color: rgb(36,28,160);
+    color: #6E815E;
 }
 
 /*style pour les icones sociaux*/
 .sociaux a {
-    color: rgb(36,28,160);
+    color: #6E815E;
     font-size: 20px;
 }
 
