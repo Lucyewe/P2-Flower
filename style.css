@@ -52,13 +52,15 @@ nav a:hover {
 
 /*style de l'entete*/
 .hero {
+    width: 95%;
+    max-width: 900px;
     background-color: rgb(255, 255, 255);
     text-align: center;
     border: 1px solid #000;
     border-radius: 50px;
     list-style-type: none;
     padding: 0;
-    margin: 0;
+    margin: 0 auto;
     display: flex;
     justify-content: center;
     gap: 20px;
@@ -85,14 +87,32 @@ nav a:hover {
 }
 
 .boutonCA {
-    width: 220px;
-    height: 70px;
-    /* background-image: url("images/CA-up.png"); */
-    /* background-repeat: no-repeat;
-    background-size: contain; */
+    
+    display: inline-block;
+    outline: none;
+    cursor: pointer;
+    font-size: 14px;
+    line-height: 1;
+    border-radius: 500px;
+    transition-property: background-color,border-color,color,box-shadow,filter;
+    transition-duration: .3s;
+    border: 1px solid transparent;
+    letter-spacing: 2px;
+    min-width: 160px;
+    text-transform: uppercase;
+    white-space: normal;
+    font-weight: 700;
     text-align: center;
-    /* padding-top: 5px; */
-    background-color: #04AA6D;
+    padding: 15px;
+    color: #fff;
+    background-color: #1ED760;
+    height: 48px;
+    :hover{
+        transform: scale(1.04);
+        background-color: #21e065;
+    }
+
+    /* background-color: #04AA6D; */
 }
 
 .boutonCA:hover {
@@ -120,6 +140,10 @@ nav a:hover {
 
 .menuprinc a {
     color: rgb(0, 0, 0);
+}
+
+.menuprinc a:hover {
+    color: rgb(28, 160, 39);
 }
 
 
@@ -152,7 +176,7 @@ header img {
 
 .pied {
     display: grid;
-    background-color: #3783A3;
+    /* background-color: #3783A3; */
     grid-template-columns: 5fr 2fr 3fr;
     padding-left: 5%;
     padding-right: 5%;
@@ -165,7 +189,7 @@ header img {
     grid-column-start: 1;
     grid-column-end: 2;
     font-size: 0.6em;
-    color: azure;
+    color: rgb(36,28,160);
 }
 
 .pied2 {
@@ -173,7 +197,7 @@ header img {
     grid-column-start: 3;
     grid-column-end: 4;
     font-size: 0.6em;
-    color: azure;
+    color: rgb(36,28,160);
 }
 
 .pied3 {
@@ -182,7 +206,7 @@ header img {
     font-family: 'Libre Franklin', sans-serif;
     font-weight: 100;
     font-size: 0.6em;
-    color: azure;
+    color: rgb(36,28,160);
 }
 
 .pied4 {
@@ -191,7 +215,7 @@ header img {
     font-family: 'Libre Franklin', sans-serif;
     font-weight: 100;
     font-size: 0.6em;
-    color: azure;
+    color: rgb(36,28,160);
 }
 
 .pied5 {
@@ -200,7 +224,7 @@ header img {
     font-family: 'Libre Franklin', sans-serif;
     font-weight: 100;
     font-size: 0.6em;
-    color: azure;
+    color: rgb(36,28,160);
 }
 
 .menupied {
@@ -211,16 +235,16 @@ header img {
     grid-template-columns: repeat(9, 1fr);
     align-items: center;
     justify-items: center;
-    color: azure;
+    color: rgb(36,28,160);
 }
 
 .menupied a {
-    color: azure;
+    color: rgb(36,28,160);
 }
 
 /*style pour les icones sociaux*/
 .sociaux a {
-    color: white;
+    color: rgb(36,28,160);
     font-size: 20px;
 }
 
