@@ -3,7 +3,7 @@ body {
     font-family: 'Libre Franklin', sans-serif;
     ;
     font-weight: 900;
-    background-color: #f8f8ff;
+    background-color: #faf8ec;
 }
 
 /*enlever le souligné pour tout les liens*/
@@ -17,7 +17,7 @@ a:active {
 
 /*couleur du menu de la navigation principale*/
 nav a {
-    color: #3783A3;
+    color: #6E815E;
 }
 
 /*couleur ausurvol du menu de la navigation principale*/
@@ -32,7 +32,7 @@ nav a:hover {
 
 /*menu principal, se comporte en grille Ã  6 colones*/
 .menu1 {
-    color: #0084a7;
+    color: #6E815E;
     font-family: 'Libre Franklin', sans-serif;
     font-weight: 900;
     font-size: 0.75em;
@@ -41,7 +41,7 @@ nav a:hover {
 }
 
 .menu1 p {
-    color: #0084a7;
+    color: #6E815E;
     margin-top: 5px;
     display: inline-block;
     font-family: 'Libre Franklin', sans-serif;
@@ -105,18 +105,18 @@ nav a:hover {
     text-align: center;
     padding: 15px;
     color: #fff;
-    background-color: #1ED760;
+    background-color: #6E815E;
     height: 48px;
     :hover{
         transform: scale(1.04);
-        background-color: #21e065;
+        
     }
 
     /* background-color: #04AA6D; */
 }
 
 .boutonCA:hover {
-    background-color: #449276;
+    background-color: #DCA9C0;
     /* background-image: url("images/CA-down.png"); */
 }
 
@@ -129,7 +129,7 @@ nav a:hover {
     grid-template-columns: repeat(11, 1fr); */
     align-items: center;
     justify-items: center;
-    color: rgb(0, 0, 0);
+    color: #6E815E;
     font-size: 1.3em;
 }
 
@@ -297,6 +297,13 @@ footer {
     grid-column-end: 10;
     min-height: 300px;
 
+}
+main div div a img {
+    transition: transform .9s ease-in-out;
+}
+
+main div div a img:hover {
+    transform: rotate(30deg);
 }
 
 /*grille de base du site fini ici*/
