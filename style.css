@@ -34,7 +34,7 @@ nav a:hover {
 
 /*menu principal, se comporte en grille Ã  6 colones*/
 .menu1 {
-    color: #6E815E;
+    color: white;
     font-weight: 600;
     font-size: 0.85em;
     margin-bottom: 3em;
@@ -158,7 +158,7 @@ header img {
 
 }
 
-.main-text-left .pied {
+.main-text-left .pied, .main-text-d .pied {
     border-top: 1px solid white;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     display: grid;
@@ -171,16 +171,15 @@ header img {
     margin-top: 5px;
     grid-column-start: 1;
     grid-column-end: 2;
-    
 }
 
-.main-text-left .pied1 p {
+.main-text-left .pied1 p, .main-text-d .pied1 p {
   font-size: 18px;
   color: white;
   margin: 0 !important;
 }
 
-.main-text-left .pied1 p:last-of-type {
+.main-text-left .pied1 p:last-of-type, .main-text-d .pied1 p:last-of-type {
   font-size: 14px;
   color: white;
   margin-top: 30px !important;
@@ -342,11 +341,13 @@ footer {
   }
 
   .top-image-dictionary {
-    width: 90%;
+    width: 100%;
     margin: 0 auto 30px;
-    background: url("./images/background-image.jpg");
+    background: url("./images/Dictionnaire.jpg");
     background-size: cover;
-    min-height: 80vh;
+    min-height: 100vh;
+    height: 100vh;
+    position: fixed;
   }
 
   .main-text {
@@ -354,6 +355,12 @@ footer {
     flex-direction: row-reverse;
     width: 90%;
     margin: 0 auto;
+  }
+
+  .main-text-d {
+    flex-direction: row;
+    width: 90%;
+    margin: 140px auto 0 auto;
   }
 
   .main-text-left {
@@ -366,7 +373,7 @@ footer {
     order: 1;
   }
 
-  .main-text-left p {
+  .main-text-left p, .main-text-d p {
     margin: auto;
     text-align: left;
     font-size: 32px;
@@ -374,15 +381,15 @@ footer {
     color: white;
   }
 
-  .main-text-left p:first-of-type {
+  .main-text-left p:first-of-type, .main-text-d p:first-of-type {
     margin-bottom: 30px;
   }
 
-  .main-text-left p:last-of-type {
+  .main-text-left p:last-of-type, .main-text-d p:last-of-type {
     margin-top: 30px;
   }
 
-  .main-text-left h1 {
+  .main-text-left h1, .main-text-d h1 {
     margin-top: 60px;
     font-size: 105px;
     font-weight: 500;
@@ -397,29 +404,46 @@ footer {
     text-align: center;
     padding: 100px 0 40px 0;
     margin: auto 20px 20px auto;
-}
+  }
 
+  .main-left h1, .main-left h2 {
+    color: white;
+    font-weight: 500;
+  }
 
+  .main-left h1 {
+    margin: 25% auto 20px 0;
+    font-family: Kalnia;
+    font-size: 75px;
+  }
 
-  .top-image-dictionary h1 {
-    text-align: center;
-    margin: 25% auto;
+  .main-left h2 {
+    font-family: SourceSans3;
+    font-size: 45px;
+  }
+
+  .main-left p {
+    font-family: SourceSans3;
+    font-size: 36px;
+    color: white;
+    margin-right: 75px;
+    text-align: justify;
   }
 
   .main {
     display: flex;
     width: 90%;
-    margin: 20px auto;
+    margin: 20px auto 200px auto;
   }
 
   .main-left {
     order: 1;
-    width: 50%;
+    width: 70%;
   }
 
   .main-right {
     order: 2;
-    width: 50%;
+    width: 30%;
     text-align: right;
   }
 
@@ -455,5 +479,37 @@ footer {
     border-width: 1px;
     border-color: gray;
   }
+
+  a:not([class]){
+    color: white;
+  }
+
+  .car-img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+  }
+
+  .car-text {
+    font-family: kalnia;
+    background-color: white !important;
+    color: black;
+    padding: 40px;
+  }
+
+  .car-text h1 {
+    font-weight: 500;
+    margin: 30px 0;
+  }
+
+  .car-text p {
+    font-size: 24px;
+    font-weight: 500;
+    text-align: justify;
+  }
+
+  .carousel.controls-outside .carousel-bullets {
+    bottom: -30px !important;
+}
 
 /*grille de base du site fini ici*/
